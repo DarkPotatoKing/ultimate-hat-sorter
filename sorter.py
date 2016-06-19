@@ -70,6 +70,6 @@ participants.sort()
 participants.sort(key = lambda x: x.sex)
 participants.sort(key = lambda x: x.group)
 
-print ','.join(['Group', 'Name', 'Age', 'Sex', 'Playing Experience', 'Experience Level', 'Teams'])
+print ','.join(['Group', 'Name', 'Age', 'Sex', 'Playing Experience', 'Experience Level', 'Estimated Rating','Teams'])
 for i in participants:
     print i
